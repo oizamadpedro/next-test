@@ -1,10 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Teste Prático NEXT.JS
 
-## Getting Started
+Node.JS Versão: v18.17.1
 
-First, run the development server:
+# Primeiro, instale as depêndencias:
 
-```bash
+npm i
+
+# Depois, rode o servidor de desenvolvimento local:
+
 npm run dev
 # or
 yarn dev
@@ -12,25 +15,30 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+
+# Agora, abra no seu navegador web favorito:
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Agora fique a vontade!
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Desafio 1: Criação de uma Landing Page Responsiva
 
-## Learn More
+Aqui você pode acessar a página principal:
+[http://localhost:3000]
 
-To learn more about Next.js, take a look at the following resources:
+# Desafio 2: Construção de um Formulário Dinâmico com Validação
+A construção do formulário foi feita na URL:
+[http://localhost:3000/contact]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Desafio 3: Autenticação e Autorização de Usuários
+Essa autorização foi feita com JWT.
+Fique a vontade para usar esse usuário de teste:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Email: pedro@gmail.com
+Senha: 123321
 
-## Deploy on Vercel
+URL: [http://localhost:3000/login]
+Para testar rotas protegidas, tente: [http://localhost:3000/profile]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Esta foi a realização do teste prático. Obrigado!

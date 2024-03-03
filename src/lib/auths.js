@@ -12,7 +12,7 @@ const users = [ // AQUI VOCÊ PODE ADICIONAR USUÁRIOS!
   {
     id: 2,
     name: 'Pedro',
-    email: 'oizamadpedro@gmail.com',
+    email: 'pedro@gmail.com',
     passwordHash: '$2a$12$A3rN6.qtd1MCkGA7S5sXqeHMw8DwpBO7m1UXxGzLhLoFlNPo8eYvi' // SENHA: "123321"
   }
 ];
