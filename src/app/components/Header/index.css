@@ -18,3 +18,21 @@ header div a:hover{
     opacity: 0.8;
     transition-duration: 0.4s;
 }
+
+/* Estilos para dispositivos de tela pequena (celulares) */
+@media only screen and (max-width: 600px) {
+    /* Adicione seus estilos para dispositivos de tela pequena aqui */
+    header div a{
+        display: none;
+    }
+}
+  
+/* Estilos para tablets em modo retrato e paisagem */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adicione seus estilos para tablets aqui */
+}
+  
+  /* Estilos para computadores e dispositivos de tela grande */
+@media only screen and (min-width: 1025px) {
+    /* Adicione seus estilos para dispositivos de tela grande aqui */
+}

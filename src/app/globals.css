@@ -7,7 +7,7 @@
 }
 #home{
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: black;
   color: #fff;
 }
@@ -17,7 +17,7 @@
 }
 #page{
   width: 100%;
-  height: 90vh;
+  height: 72vh;
   display: flex;
   padding: 7rem;
 }
@@ -28,4 +28,116 @@
 #page div:last-child{
   width: 35%;
   height: 100%;
+}
+#about-product{
+  display: flex;
+  justify-content: space-around;
+}
+h2{
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+#box-about{
+  padding: 1rem;
+}
+#box-about{
+  width: 600px;
+  height: 140px;
+  border-radius: 12px;
+  background-color: #1b1a1a;
+}
+
+#image-product{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Estilos para dispositivos de tela pequena (celulares) */
+@media only screen and (max-width: 600px) {
+  #page{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #home h1{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  #page div:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #page div img{
+    width: 80%;
+    height: 80%;
+  }
+  #about-product{
+    width: 100%;
+    min-height: 150px;
+    justify-content: none;
+    flex-direction: column;
+    padding: 0.4rem;
+  }
+  #about-product div{
+    padding: 0.4rem;
+    margin-top: 1rem;
+    max-width: 100%;
+    min-height: 230px;
+  }
+}
+
+/* Estilos para tablets em modo retrato e paisagem */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  #home h1{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  #page{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  #page div:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #page div img{
+    width: 40%;
+    height: 90%;
+  }
+  #about-product{
+    width: 100%;
+    min-height: 150px;
+    justify-content: none;
+    flex-direction: column;
+    padding: 0.4rem;
+  }
+  #about-product div{
+    padding: 0.4rem;
+    margin-top: 1rem;
+    min-width: 100%;
+    max-height: 190px;
+  }
+  #page div:last-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #page div img{
+    width: 80%;
+    height: 80%;
+  }
+} 
+
+/* Estilos para computadores e dispositivos de tela grande */
+@media only screen and (min-width: 1025px) {
+  /* Adicione seus estilos para dispositivos de tela grande aqui */
 }
